@@ -1,0 +1,43 @@
+/*Events styling*/
+
+.event-head {
+	font-family: 'Lobster';
+	color: aliceblue;
+	display: flex;
+	justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+  background-color: aquamarine;
+}
+
+#el{
+  color: #ffa260;
+  border: 2px solid;
+  transition: color 0.25s,border-color 0.25s,box-shadow 0.25s, background-color 0.25s;
+}
+
+#el:hover{
+  border-color: #f1ff5c;
+  border-radius: 5px;
+  /* height: 100px;
+  width: 300px; */
+  padding: 1rem;
+  /* background-color: rgb(235, 124, 20); */
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c; 
+  background-color: rgb(204, 15, 204);
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-group-item {
+  background-color: orange;
+}
+
+.link_post {
+  color: black;
+}

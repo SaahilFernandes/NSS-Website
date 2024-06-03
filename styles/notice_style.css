@@ -1,0 +1,87 @@
+.btn-ann{
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s,border-color 0.25s,box-shadow 0.25s,transform 0.25s;
+}
+.btn-ann:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c; /*0 for x offset 0.5 for y offset
+    0.5 for blur -0.4 for spread radius */
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#display_excel_data {
+    color: whitesmoke;
+    border: 1px solid white;
+    border-collapse: collapse;
+
+}
+.btnVol {
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s,border-color 0.25s,box-shadow 0.25s,transform 0.25s;
+}
+.btnVol:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c; /*0 for x offset 0.5 for y offset
+    0.5 for blur -0.4 for spread radius */
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+td {
+    color: white;
+}
+th {
+    color: yellow;
+}
+
+
+
+  tr:nth-child(4){
+    background-color: #ee963e;
+  }
+  tr:nth-child(14){
+    background-color: #ee963e;
+  }
+  tr:nth-child(28){
+    background-color: #ee963e;
+  }
+  tr:nth-child(36){
+    background-color: #ee963e;
+  }
+
+  tr:nth-child(3){
+    background-color: #ff6060;;
+  }
+  tr:nth-child(13){
+    background-color: #ff6060;
+  }
+  tr:nth-child(27){
+    background-color: #ff6060;
+  }
+  tr:nth-child(35){
+    background-color: #ff6060;
+  }
+  tr:nth-child(46){
+    background-color: #ff6060;
+  }
+
+  tr:nth-child(1){
+    background-color: #df12b9;
+  }
+  tr:nth-child(2){
+    background-color: #df12b9;
+  }
+
+  tr:nth-child(47){
+    background-color: #df12b9;
+  }
